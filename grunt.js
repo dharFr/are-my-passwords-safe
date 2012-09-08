@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     },*/
     less: {
       all: {
-        src: 'less/*.less',
+        src: 'less/style.less',
         dest: 'less/style.css',
         options: {
           compress: true
